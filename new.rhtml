@@ -39,7 +39,7 @@
   <label><%= l(:field_assigned_to) %></label>
   <%= select_tag('assigned_to_id', content_tag('option', l(:label_no_change_option), :value => '') +
                                    content_tag('option', l(:label_nobody), :value => 'none') +
-                                   options_from_collection_for_select(@target_project.assignable_users, :id, :name)) %>							  
+                                   options_from_collection_for_select(@target_project.assignable_users, :id, :name)) %>
 </p>
 <% if @copy %>
 <p>
@@ -79,4 +79,7 @@
 	<%= submit_tag l(:button_move) %>
 	<%= submit_tag l(:button_move_and_follow), :name => 'follow' %>
 <% end %>
+<% end %>
+<% content_for :header_tags do %>
+	<%= robot_exclusion_tag %>
 <% end %>
