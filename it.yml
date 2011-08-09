@@ -637,7 +637,7 @@ it:
   label_user_mail_option_all: "Per ogni evento relativo ad uno dei miei progetti"
   setting_emails_footer: Piè di pagina email
   label_float: Decimale
-  button_copy: Copia
+  button_copy: Copia \ Assergna a RDD
   mail_body_account_information_external: "Puoi utilizzare il tuo account %{value} per accedere al sistema."
   mail_body_account_information: Le informazioni riguardanti il tuo account
   setting_protocol: Protocollo

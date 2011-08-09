@@ -26,7 +26,7 @@ class IssueMovesController < ApplicationController
             relation = IssueRelation.new
             relation.issue_to = issue
             relation.issue_from = r
-            relation.relation_type = "duplicates"
+            relation.relation_type = "relates"
             relation.save
           end
         else
