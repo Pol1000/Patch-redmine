@@ -1,14 +1,6 @@
-redmine.rb va nella cartella redmine/lib
+nella cartella redmine è stata ricreata la gerarchia di cartelle nelle quali vanno inseriti i vari file per le patch
 
-it.yml va nella cartella redmine/config/locales
 
-new.rhtml va nella cartella redmine/app/views/issue_moves
-
-issue_moves_controller.rb va nella cartella redmine/app/controllers
-
-i18n.rb va nella cartella redmine/lib/redmine
-
-_form.rhtml va nella cartella redmine/app/views/issues (per poter usare il customer_plus con la creazione issue da dettaglio customer)
-
+fare un merge della cartella redmine dell'installazione con questa delle patch e sovrascrivendo i file dovrebbe bastare per patchare.
 
 ddgpa è un tema per redmine, in base all'urgenza della segnalazione cambia il colore della riga e del testo nell'elenco segnalazioni
