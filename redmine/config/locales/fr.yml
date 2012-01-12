@@ -190,7 +190,8 @@ fr:
   notice_issue_done_ratios_updated: L'avancement des demandes a été mis à jour.
   notice_api_access_key_reseted: Votre clé d'accès API a été réinitialisée.
   notice_gantt_chart_truncated: "Le diagramme a été tronqué car il excède le nombre maximal d'éléments pouvant être affichés (%{max})"
-  
+  notice_issue_successful_create: "La demande %{id} a été créée."
+
   error_can_t_load_default_data: "Une erreur s'est produite lors du chargement du paramétrage : %{value}"
   error_scm_not_found: "L'entrée et/ou la révision demandée n'existe pas dans le dépôt."
   error_scm_command_failed: "Une erreur s'est produite lors de l'accès au dépôt : %{value}"
@@ -806,7 +807,8 @@ fr:
   label_issues_visibility_all: Toutes les demandes
   label_issues_visibility_public: Toutes les demandes non privées
   label_issues_visibility_own: Demandes créées par ou assignées à l'utilisateur
-  
+  label_between: entre
+
   button_login: Connexion
   button_submit: Soumettre
   button_save: Sauvegarder

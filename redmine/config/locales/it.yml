@@ -531,6 +531,7 @@ it:
   label_added_time_by: "Aggiunto da %{author} %{age} fa"
   label_updated_time: "Aggiornato %{value} fa"
   label_jump_to_a_project: Vai al progetto...
+  label_between: tra
   
   button_login: Entra
   button_submit: Invia
@@ -897,6 +898,7 @@ it:
   label_close_versions: Versioni completate chiuse
   label_board_sticky: Annunci
   label_board_locked: Bloccato
+  notice_issue_successful_create: Segnalazione %{id} creata.
   permission_export_wiki_pages: Esporta pagine wiki
   setting_cache_formatted_text: Cache testo formattato
   permission_manage_project_activities: Gestisci attività progetti
