@@ -45,12 +45,6 @@ class IssueMovesController < ApplicationController
             relation.issue_from = r
             relation.relation_type = "relates"
             relation.save
-            issue.custom_field_values.each do |c|
-              if c.custom_field.name == "lab"
-                c.value = true
-                issue.save
-              end
-            end
           end
         else
           unsaved_issue_ids << issue.id
@@ -96,4 +90,3 @@ class IssueMovesController < ApplicationController
   end
 
 end
-
